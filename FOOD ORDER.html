@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Khao</title>
+        <style>
+            *{
+                box-sizing:border-box ;
+            }
+            .header{
+                font-size: 25px;
+                text-align: center;
+                color: white;
+            }
+            .main{
+                border: 2px solid black;
+                width:50%;
+                overflow: visible;
+                text-align: center;
+                margin: 0 0 0 350px;
+                padding-bottom: 400px;    
+            }
+            .form{
+                float: left;
+                width:55%;
+                padding: 50px;
+                background-color: black;
+                height:400px;
+                opacity: 0.9;
+               
+            }
+            .form h3{
+                font-size: 15px;
+                color:white;
+                text-align: center;
+            }
+            .form ul{
+                margin:10px ;
+                padding-left: 8px;
+            }
+            .form li{
+                display: inline;
+                color: white;
+                
+               
+            }
+            .form a{
+                text-decoration: none;
+                color:black;
+                text-align: center;
+                padding:5px;
+                width: auto;
+                color:white ;
+
+            }
+            .image
+            {
+                float:right;
+                width: 45%;
+            }
+            img{
+                float:right;
+                width:100%;
+                height:400px;
+                float: left;
+            }
+            input[type=text]{
+                background-color: white;
+                border-color: black;
+                width:100%;
+                padding: 10px;
+                margin:10px;
+                border-radius: 10px;
+            }
+            input[type=password]
+            {
+                background-color: white;
+                border-color: black;
+                width:100%;
+                padding: 10px;
+                margin:10px;
+                border-radius: 10px; 
+            }
+            input[type=button]{
+                width: 100%;
+                padding: 10px;
+                margin:10px;
+                background-color: grey;
+                border-radius: 10px;
+            }
+            input[type=button]:hover{
+                background-color: rgb(197, 201, 206);
+            }
+            
+            .back{
+                background: linear-gradient(rgba(53, 51, 53, 0.8), rgba(17, 17, 17, 0.8)) ,url("food2.jpg");
+                background-size: cover;   
+                background-repeat: no-repeat;   
+                width: 100%; 
+                height: 700px;
+            }
+            .footer{
+                font-size: 10px;
+                color: white;
+                text-align: center;
+            }
+            .forget{
+                font-size: 10px;
+                text-align: center;
+                font-style: italic;
+                
+            }
+           
+        </style>
+    </head>
+    <body class="back">    
+    
+        <div class="header">
+            <h1>FOOD KHAO</h1>
+        </div>
+        <div class="main">
+            <div class="form">
+                <h3>
+                    PICKUP YOUR PATH TO HAPPY ENDING
+                </h3>
+                <ul>
+                    <li><a href="FOOD ORDER.html">Log In</a></li>
+                    <li style="font-weight:bolder;">/</li>
+                    <li><a href="register">Register</a></li>
+                </ul>
+                <form id="form">
+                <input type="text" placeholder="User Id" name="userid" id="userid" class="userid" required><br><br>
+                <input type="password" placeholder="Password" name="password" id="password" class="password" required>
+                <a class="forget" href="#forget">Forget Password!</a><br><br>
+                <input type="button" value="Login" id="submit"> 
+                </form>               
+            </div>
+            <div class="image">
+                <img src="food3.jpeg">
+            </div>
+        </div>
+        <div class="footer">
+            <p>@ 2017 Food order. all Right Reserved | Design by Vanshu</p>
+        </div>
+
+       
+    <script>
+        
+
+    </script>   
+    </body>
+</html>
